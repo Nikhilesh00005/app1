@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Running tests..."
-                    pytest -v
+                    python3 -m pytest -v
                 '''
             }
         }
