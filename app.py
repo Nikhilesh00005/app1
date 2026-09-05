@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Docker Jenkins CI Pipeline Application is running!"
+    return "Docker Jenkins CI Pipeline Application is ruunning!"
 
 @app.route("/health")
 def health():
